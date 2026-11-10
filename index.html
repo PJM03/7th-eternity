@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      제 7대 인공지능융합대학 학생회 입후보 [영원] - 스쳐가는 찰나가 영원히
+      기억될 순간으로
+    </title>
+    <meta
+      name="description"
+      content="제 7대 인공지능융합대학 학생회 입후보 [영원] 학생회장 입후보자 임명진(사이버보안 22)"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- 상단 고정 네비게이션 (미니멀 애플 스타일 헤더) -->
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a
+          href="#sec-intro"
+          class="brand-logo"
+          aria-label="제 7대 인공지능융합대학 학생회 입후보 영원 홈"
+        >
+          <img
+            src="./logo.svg"
+            alt="학생회 입후보 영원 로고"
+            class="logo-img"
+          />
+          <span class="brand-text"
+            >제 7대 인공지능융합대학 학생회 입후보 <strong>[영원]</strong></span
+          >
+        </a>
+        <nav class="site-nav" aria-label="주요 섹션 이동">
+          <a href="#sec-slogan" class="nav-link">기조</a>
+          <a href="#sec-candidate" class="nav-link">입후보자 약력</a>
+          <a href="#sec-pledges" class="nav-link">공약</a>
+          <a href="#sec-footer" class="nav-link nav-cta">투표 안내</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 메인 스크롤 컨테이너 -->
+    <main id="smooth-wrapper">
+      <div id="smooth-content">
+        <!-- =========================================================
+           1. 인트로 섹션 (Intro / Hero)
+           - 테마: Light (#FFFFFF 배경 / #111111 텍스트)
+      ========================================================== -->
+        <section
+          id="sec-intro"
+          class="scroll-section section-intro"
+          data-theme="light"
+        >
+          <div class="intro-inner">
+            <!-- 중앙 로고 (Fade-in & Scale-up) -->
+            <div class="intro-logo-wrap" id="intro-logo-wrap">
+              <img
+                src="./logo.svg"
+                alt="제 7대 인공지능융합대학 학생회 입후보 영원 로고"
+                class="intro-logo"
+              />
+            </div>
+
+            <!-- 순차 등장 타이포그래피 그룹 -->
+            <div class="intro-titles">
+              <div class="overflow-clip">
+                <p class="intro-subtitle" id="intro-subtitle">
+                  제 7대 인공지능융합대학 학생회 입후보
+                </p>
+              </div>
+              <div class="overflow-clip">
+                <h1 class="intro-main-title" id="intro-main-title">영원</h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- 하단 스크롤 유도 인디케이터 (Scroll Down) -->
+          <div
+            class="scroll-indicator"
+            id="intro-scroll-indicator"
+            aria-hidden="true"
+          >
+            <span class="scroll-indicator-text">SCROLL</span>
+            <div class="scroll-indicator-track">
+              <span class="scroll-indicator-thumb"></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================
+           2. 슬로건 스토리텔링 섹션 (Slogan Scrollytelling)
+           - 진입 및 Pin 고정과 함께 #FFFFFF -> #0A0A0A 배경 전환
+           - 0% ~ 45%: "스쳐가는 찰나가"
+           - 50% ~ 90%: "영원히 기억될 순간으로" ('영원' 빛 번짐 강조)
+      ========================================================== -->
+        <section id="sec-slogan" class="scroll-section section-slogan">
+          <div class="slogan-pin-stage" id="slogan-pin-stage">
+            <!-- 은은한 배경 앰비언트 라이트 -->
+            <div
+              class="slogan-ambient-glow"
+              id="slogan-ambient-glow"
+              aria-hidden="true"
+            ></div>
+
+            <div class="slogan-stage-inner">
+              <!-- 1단계 슬로건 (0% ~ 45%) -->
+              <p class="slogan-phrase slogan-phrase-1" id="slogan-phrase-1">
+                스쳐가는 찰나가
+              </p>
+
+              <!-- 2단계 슬로건 (50% ~ 90%) -->
+              <p class="slogan-phrase slogan-phrase-2" id="slogan-phrase-2">
+                <span class="slogan-glow-word" id="slogan-glow-word">영원</span
+                >히 기억될 순간으로
+              </p>
+            </div>
+
+            <!-- 하단 스크롤 진행도 미니 바 -->
+            <div class="slogan-progress-wrap" aria-hidden="true">
+              <div class="slogan-progress-bar" id="slogan-progress-bar"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================
+           3. 단독 입후보자 소개 섹션 (Solo Candidate Showcase)
+           - 테마: Light (블랙 #0A0A0A -> 화이트 #FFFFFF 배경 전환)
+           - 학생회장 입후보자: 임명진 (사이버보안 22)
+      ========================================================== -->
+        <section
+          id="sec-candidate"
+          class="scroll-section section-candidate"
+          data-theme="light"
+        >
+          <!-- 단독 입후보자의 존재감을 채우는 배경 대형 워터마크 타이포그래피 -->
+          <div
+            class="candidate-bg-watermark"
+            id="candidate-bg-watermark"
+            aria-hidden="true"
+          >
+            7TH ETERNITY
+          </div>
+
+          <div class="section-container candidate-layout">
+            <!-- 좌측: ./mj-stand.png 공수자세 사진 패럴랙스 컬럼 -->
+            <div class="candidate-visual-col">
+              <div class="candidate-photo-frame" id="candidate-photo-frame">
+                <div class="candidate-photo-backdrop" aria-hidden="true"></div>
+                <img
+                  src="./mj-stand.png"
+                  alt="인공지능융합대학 학생회장 입후보자 임명진 공수자세 사진"
+                  class="candidate-stand-img"
+                  id="candidate-stand-img"
+                />
+              </div>
+            </div>
+
+            <!-- 우측: 입후보자 상세 정보 (Stagger 순차 등장 컬럼) -->
+            <div class="candidate-info-col" id="candidate-info-col">
+              <div class="candidate-stagger-item candidate-header-group">
+                <span class="candidate-eyebrow">CANDIDATE PROFILE</span>
+                <p class="candidate-role-title">
+                  인공지능융합대학 학생회장 입후보자
+                </p>
+                <div class="candidate-name-row">
+                  <h2 class="candidate-name">임명진</h2>
+                  <span class="candidate-major-badge">사이버보안 22</span>
+                </div>
+              </div>
+
+              <div
+                class="candidate-stagger-item candidate-divider"
+                aria-hidden="true"
+              ></div>
+
+              <div class="candidate-stagger-item candidate-history-block">
+                <h3 class="candidate-history-heading">주요 약력 · PROFILE</h3>
+                <!-- [TODO: 입후보자 약력 수정 영역 - 연도별 타임라인 그룹] -->
+                <div class="candidate-timeline" id="candidate-bio-list">
+                  <!-- 2022년 -->
+                  <div class="timeline-year-group">
+                    <span class="timeline-year-badge">2022</span>
+                    <ul class="timeline-items">
+                      <li>소프트웨어융합대학 컴퓨터소프트웨어학부 입학</li>
+                    </ul>
+                  </div>
+
+                  <!-- 2023년 -->
+                  <div class="timeline-year-group">
+                    <span class="timeline-year-badge">2023</span>
+                    <ul class="timeline-items">
+                      <li>육군 제9보병사단 백마부대 신병교육대대 자원 입대</li>
+                    </ul>
+                  </div>
+
+                  <!-- 2025년 -->
+                  <div class="timeline-year-group">
+                    <span class="timeline-year-badge">2025</span>
+                    <ul class="timeline-items">
+                      <li>육군 제9보병사단 백마부대 수색대대 병장 만기 전역</li>
+                      <li>
+                        <strong
+                          >제 5대 'END:ING' 소프트웨어융합대학 학생회 기획국장
+                          역임</strong
+                        >
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학X사회과학대학 신입생
+                        환영행사 준비위원
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학 개강총회 준비위원
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학 풋살대회
+                        '엔딩일레븐' 준비위원
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학X글로벌비즈니스대학
+                        농촌봉사활동 준비위원
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학 중간고사 간식배부
+                        준비위원
+                      </li>
+                      <li>
+                        제 5대 'END:ING' 소프트웨어융합대학 단체잠바 제작 및
+                        배부 준비위원
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- 2026년 -->
+                  <div class="timeline-year-group">
+                    <span class="timeline-year-badge">2026</span>
+                    <ul class="timeline-items">
+                      <li>
+                        <strong
+                          >제 6대 'E:UM' 소프트웨어융합대학 학생회 총괄위원장
+                          역임</strong
+                        >
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학 신입생 환영행사
+                        총괄위원장
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학 개강총회 총괄위원장
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학X공과대학 풋살대회
+                        'D2일레븐' 준비위원
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학X음악공연예술대학
+                        농촌봉사활동 총괄위원장
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학 1학기 기말고사 간식배부
+                        총괄위원장
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학 2학기 중간고사 간식배부
+                        총괄위원장
+                      </li>
+                      <li>
+                        제 6대 'E:UM' 소프트웨어융합대학X공과대학 E-Sports대회
+                        준비위원
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================
+           4. 핵심 공약 하이라이트 섹션 (Core Pledges)
+           - 테마: Dark (화이트 #FFFFFF -> 블랙 #111111 배경 전환)
+           - 좌측: 11개 핵심 공약 전체 한눈에 표시 (부가설명 제외)
+           - 우측(데스크톱): ./mj-yogi.png 배치 (왼쪽 공약 리스트를 가리키는 연출, 모바일 숨김)
+      ========================================================== -->
+        <section
+          id="sec-pledges"
+          class="scroll-section section-pledges"
+          data-theme="dark"
+        >
+          <div class="pledges-stage" id="pledges-pin-stage">
+            <!-- 배경 은은한 스포트라이트 효과 -->
+            <div class="pledges-ambient-light" aria-hidden="true"></div>
+
+            <div class="section-container pledges-stage-container">
+              <!-- 상단 섹션 헤더 -->
+              <header class="pledges-header" id="pledges-header">
+                <span class="pledges-eyebrow"
+                  >CORE PLEDGES · 입후보 [영원]의 약속</span
+                >
+                <h2 class="pledges-main-title">
+                  영원을 만들어갈
+                  <span class="pledges-count-highlight">11대 핵심 공약</span>
+                </h2>
+              </header>
+
+              <div class="pledges-content-grid">
+                <!-- 좌측: 11개 공약이 한 번에 모두 표시되는 글래스모피즘 그리드 -->
+                <div class="pledges-cards-Area">
+                  <!-- [TODO: 핵심 공약 수정 영역 - 11개 공약 한눈에 보기] -->
+                  <ol class="pledges-all-grid" id="pledges-container">
+                    <li class="pledge-item">
+                      <span class="pledge-num">01</span>
+                      <span class="pledge-name">타 단과대학 교류 확대</span>
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">02</span>
+                      <span class="pledge-name">시험기간 간식 배부</span>
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">03</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 개강총회 진행</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">04</span>
+                      <span class="pledge-name">인공지능융합대학 MT 진행</span>
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">05</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 단합회 개최</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">06</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 단체 봉사활동 진행</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">07</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 E-Sports 대회 진행</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">08</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 풋살대회 진행</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">09</span>
+                      <span class="pledge-name"
+                        >인공지능융합대학 단대인의 밤 행사 진행</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">10</span>
+                      <span class="pledge-name"
+                        >D2 작은도서관 전공서적 최신화 및 추가 구비</span
+                      >
+                    </li>
+                    <li class="pledge-item">
+                      <span class="pledge-num">11</span>
+                      <span class="pledge-name">D5 작은도서관 개설</span>
+                    </li>
+                  </ol>
+                </div>
+
+                <!-- 우측 하단: 왼쪽 공약 리스트를 가리키는 입후보자 이미지 (./mj-yogi.png, 모바일 숨김) -->
+                <div class="pledges-pointer-col">
+                  <div
+                    class="pledges-candidate-figure"
+                    id="pledges-candidate-figure"
+                  >
+                    <div
+                      class="pledges-figure-backlight"
+                      aria-hidden="true"
+                    ></div>
+                    <img
+                      src="./mj-yogi.png"
+                      alt="왼쪽 핵심 공약을 가리키는 임명진 입후보자"
+                      class="pledges-yogi-img"
+                    />
+                    <div class="pledges-figure-caption">
+                      <span class="caption-name">임명진</span>
+                      <span class="caption-sub">사이버보안 22 · 입후보자</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================
+           5. 클로징 및 투표 안내 섹션 (Closing & Voting Guide)
+           - 테마: Light (블랙 #111111 -> 화이트 #FFFFFF 배경 전환)
+           - 중앙 ./logo.svg + GCGS 클로징 슬로건 + 투표 안내 카드
+      ========================================================== -->
+        <section
+          id="sec-footer"
+          class="scroll-section section-footer"
+          data-theme="light"
+        >
+          <div class="section-container footer-closing-container">
+            <!-- 상단 클로징 로고 & 슬로건 그룹 -->
+            <div class="closing-hero" id="closing-hero">
+              <div class="closing-logo-wrap" id="closing-logo-wrap">
+                <img
+                  src="./logo.svg"
+                  alt="제 7대 인공지능융합대학 학생회 입후보 영원 로고"
+                  class="closing-logo"
+                />
+              </div>
+
+              <p class="closing-slogan" id="closing-slogan">
+                "스쳐가는 찰나가 영원히 기억될 순간으로"<br />
+                소중한 권리행사 부탁드립니다.
+              </p>
+            </div>
+
+            <!-- 투표 참여 방법 비주얼 가이드 카드 -->
+            <div class="voting-guide-card" id="voting-guide-card">
+              <div class="voting-card-header">
+                <span class="voting-badge">HOW TO VOTE · 투표 방법 안내</span>
+                <h2 class="voting-card-title">
+                  제 7대 인공지능융합대학 학생회 입후보 [영원] 투표 안내
+                </h2>
+                <p class="voting-card-candidate">
+                  학생회장 입후보자 <strong>임명진</strong>
+                  <span class="voting-candidate-major">(사이버보안 22)</span>
+                </p>
+              </div>
+
+              <!-- 2단계 이미지 시각 가이드 (e-Advisor 캡처 활용) -->
+              <div class="voting-steps-grid" id="vote-info-container">
+                <!-- STEP 01 -->
+                <article class="voting-step-card">
+                  <div class="voting-step-head">
+                    <span class="voting-step-num">STEP 01</span>
+                    <h3 class="voting-step-title">
+                      학생 포털 우측 상단 메뉴 클릭
+                    </h3>
+                    <p class="voting-step-desc">
+                      학생 포털(<strong>DCU e-Advisor</strong>) 메인 화면 우측
+                      상단의 <strong>햄버거 메뉴(≡)</strong>를 클릭해 주세요.
+                    </p>
+                  </div>
+                  <div class="voting-step-mockup">
+                    <img
+                      src="./e-advisor-vote-main-circle-01.png"
+                      alt="학생 포털 메인 화면에서 우측 상단 햄버거 메뉴 클릭 안내 이미지"
+                      class="voting-step-img"
+                      loading="lazy"
+                    />
+                  </div>
+                </article>
+
+                <!-- STEP 02 -->
+                <article class="voting-step-card">
+                  <div class="voting-step-head">
+                    <span class="voting-step-num">STEP 02</span>
+                    <h3 class="voting-step-title">
+                      부가서비스 → 학생 선거 접속
+                    </h3>
+                    <p class="voting-step-desc">
+                      <strong>[부가서비스]</strong> →
+                      <strong>[학생 선거]</strong> →
+                      <strong>[학생자치기구장 총선거]</strong> 메뉴로 접속하여
+                      투표해 주세요.
+                    </p>
+                  </div>
+                  <div class="voting-step-mockup">
+                    <img
+                      src="./e-advisor-vote-menu-circle-01.png"
+                      alt="부가서비스 -> 학생 선거 -> 학생자치기구장 총선거 접속 안내 이미지"
+                      class="voting-step-img"
+                      loading="lazy"
+                    />
+                  </div>
+                </article>
+              </div>
+
+              <div class="voting-cta-wrap">
+                <a
+                  href="https://red.cu.ac.kr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="voting-cta-btn"
+                  id="voting-cta-btn"
+                >
+                  <span class="voting-cta-text"
+                    >학생 포털 (DCU e-Advisor) 바로가기</span
+                  >
+                  <span class="voting-cta-arrow" aria-hidden="true">→</span>
+                </a>
+                <p class="voting-cta-note">
+                  * 위 버튼을 누르면 학생 포털(red.cu.ac.kr)로 이동합니다.
+                </p>
+              </div>
+            </div>
+
+            <!-- 최하단 카피라이트 바 -->
+            <footer class="copyright-bar" id="footer-copyright">
+              <div class="copyright-brand">
+                <strong>제 7대 인공지능융합대학 학생회 입후보 [영원]</strong>
+                <span>학생회장 입후보자 임명진 (사이버보안 22)</span>
+              </div>
+              <p class="copyright-copy">
+                © 2026 제 7대 인공지능융합대학 선거운동본부. All rights
+                reserved.
+              </p>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- =========================================================
+       SVG Defringe Filter (어두운 배경 위 PNG 하얀 누끼 테두리 제거 필터)
+       - 외곽 반투명 화이트 매트 픽셀(Alpha Fringe)을 안쪽으로 미세하게 수축(Erode & Choke)시키고
+         부드럽게 안티앨리어싱 처리한 뒤 다크 섀도우를 결합합니다.
+  ========================================================== -->
+    <svg
+      width="0"
+      height="0"
+      style="position: absolute; pointer-events: none"
+      aria-hidden="true"
+    >
+      <defs>
+        <filter
+          id="defringe-cutout"
+          x="-10%"
+          y="-10%"
+          width="120%"
+          height="120%"
+          color-interpolation-filters="sRGB"
+        >
+          <!-- 1. 알파 채널을 미세하게 깎아 외곽 1~1.5px의 하얀 반투명 테두리 제거 -->
+          <feMorphology
+            in="SourceAlpha"
+            operator="erode"
+            radius="1.1"
+            result="erodedAlpha"
+          />
+          <feComponentTransfer in="erodedAlpha" result="chokedAlpha">
+            <feFuncA type="linear" slope="2.2" intercept="-0.65" />
+          </feComponentTransfer>
+          <!-- 2. 잘려나간 외곽선을 0.55px 블러로 매끄럽게 스무딩(Feathering) -->
+          <feGaussianBlur
+            in="chokedAlpha"
+            stdDeviation="0.55"
+            result="smoothAlpha"
+          />
+          <!-- 3. 원본 이미지를 정제된 알파 마스크 안쪽으로만 클리핑 -->
+          <feComposite
+            in="SourceGraphic"
+            in2="smoothAlpha"
+            operator="in"
+            result="cleanCutout"
+          />
+          <!-- 4. 다크 배경과 자연스럽게 어우러지는 깊이감 있는 드롭 섀도우 부여 -->
+          <feDropShadow
+            in="cleanCutout"
+            dx="-8"
+            dy="10"
+            stdDeviation="16"
+            flood-color="#000000"
+            flood-opacity="0.75"
+            result="finalImage"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- =========================================================
+       CDN Libraries: GSAP, ScrollTrigger, Lenis
+  ========================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
